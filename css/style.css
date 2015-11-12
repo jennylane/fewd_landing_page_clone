@@ -24,6 +24,7 @@ div {
 	margin: 0 auto;
 	    width: 970px;
 	    padding: 0px 15px
+
 }
 /* Navigation Section */
 .top-navigation {
@@ -130,22 +131,65 @@ button.big-button:hover {
 	color: #000;
 	margin-top: 2.5em;
 
+
 }
 
 .cases .devices {
-    width: 33.3333333%;
+    width: 20%;
     display: inline-block;
-    /* styles to assist with debugging */
-    height: 4em;
-    display: inline;
+    height: 8em;
     margin-right: 2em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 1.5rem;
+    vertical-align: top;
 }
 
 .icons {
 	text-align: center;
-}
+
 
 }
-.cases .devices img {
+.devices img {
 	width: 127px;
+}
+
+.cases {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sicons {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social .sicons > li {
+    display: inline-block;
+    border-radius: 1.25rem;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    margin: 1.25rem 5px;
+    width :2.5rem;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+.footer {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
 }
