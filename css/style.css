@@ -16,6 +16,8 @@ font-size: 16px;
 color: #838994;
 letter-spacing: 0.03em;
 }
+
+
 div {
     border: 1px solid Chocolate;
 }
@@ -73,6 +75,10 @@ z-index: 9999;
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.logo {
+    margin-top: 15px;
 }
 
 
@@ -135,15 +141,14 @@ button.big-button:hover {
 }
 
 .cases .devices {
-    width: 20%;
+    width: 33.3333%%;
     display: inline-block;
     height: 8em;
-    margin-right: 2em;
-    border: 1px solid black;
     box-sizing: border-box;
     color: #000;
     font-size: 1.5rem;
     vertical-align: top;
+
 }
 
 .icons {
@@ -158,11 +163,12 @@ button.big-button:hover {
 .cases {
     width: 960px;
     margin: 0 auto;
+    padding-bottom: 5rem;
 }
 
 .sicons {
     list-style-type: none;
-    text-align: center;
+    
 }
 
 .social .sicons > li {
@@ -192,4 +198,16 @@ button.big-button:hover {
 
 .social {
     text-align: center;
+}
+
+.social hr {
+    border-color: #eaebec;
+    border-width: 1px;
+    border-style: solid none none;
+}
+
+.social h5 {
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
